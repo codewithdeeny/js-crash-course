@@ -14,3 +14,28 @@ console.log("Whats good?");
 var num1 = 30;
 num1 = num1 += 40;
 console.log(num1);
+
+//functions
+/*function myBestTeam() {
+  var name = prompt("What is your favorite team?");
+  var result = "My best team is " + name;
+  console.log(result);
+}
+myBestTeam();*/
+
+function greetings(yourName) {
+  // var yourName = "Deeny";
+  var result = "Hey " + yourName;
+  console.log(result);
+}
+//var name = prompt("What is your name");
+
+greetings(name);
+
+//While loop
+var num = 0;
+while (num < 200) {
+  num += 1;
+  console.log(num);
+}
+//
